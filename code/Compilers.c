@@ -90,21 +90,29 @@ jd_intg main(int argc, char** argv) { // Update the return name with are languag
 			PGM_WRT, "] - Writer\n");
 		return EXIT_FAILURE;
 	}
+
+
 	jd_char option = argv[1][0];
+
 	switch (option) {
-	case PGM_CDR:
-		printf("%s%c%s", "\n[Option '", PGM_CDR, "': Starting CODER .....]\n\n");
-		main1Coder(argc, argv);
-		break;
-	default:
+		case PGM_CDR:
+			printf("%s%c%s", "\n[Option '", PGM_CDR, "': Starting CODER .....]\n\n");
+			main1Coder(argc, argv);
+			break;
+
+		case PGM_RDR:
+			printf("%s%c%s", "\n[Option '", PGM_RDR, "': Starting Reader .....]\n\n");
+			main2Reader(argc, argv);
+			break;
+			default:
+
 		printf("%s%c%s%c%s%c%s%c%s%c%s", "OPTIONS:\n* [",
 			PGM_CDR, "] - Coder\n* [",
 			PGM_RDR, "] - Reader\n* [",
 			PGM_SCN, "] - Scanner\n* [",
 			PGM_PSR, "] - Parser\n* [",
 			PGM_WRT, "] - Writer\n");
-		break;
-	}
+}
 	return EXIT_SUCCESS;
 }
 

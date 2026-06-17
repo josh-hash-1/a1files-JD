@@ -125,7 +125,7 @@ Main functions signatures
 ------------------------------------------------------------
 */
 jd_intg main1Coder	(jd_intg argc, jd_strg* argv); // update the return value name with are name of are language
-
+jd_intg main2Reader	(jd_intg argc, jd_strg* argv); 
 jd_void printLogo(); // update the return value name with are name of are language
 jd_void errorPrint(jd_strg fmt, ...); // update the return value name with are name of are language
 
