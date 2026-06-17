@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu99 -arch arm64 -fcolor-diagnostics -o CMakeFiles/Compilers.dir/Compilers.c.o -c \"/Users/daryl/School Projects/Clion Compiler Project/a1files/code/Compilers.c\"",
+  "file": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/Compilers.c",
+  "output": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/cmake-build-debug/CMakeFiles/Compilers.dir/Compilers.c.o"
+},
+{
+  "directory": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu99 -arch arm64 -fcolor-diagnostics -o CMakeFiles/Compilers.dir/Step1Coder.c.o -c \"/Users/daryl/School Projects/Clion Compiler Project/a1files/code/Step1Coder.c\"",
+  "file": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/Step1Coder.c",
+  "output": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/cmake-build-debug/CMakeFiles/Compilers.dir/Step1Coder.c.o"
+},
+{
+  "directory": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu99 -arch arm64 -fcolor-diagnostics -o CMakeFiles/Compilers.dir/Main1Coder.c.o -c \"/Users/daryl/School Projects/Clion Compiler Project/a1files/code/Main1Coder.c\"",
+  "file": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/Main1Coder.c",
+  "output": "/Users/daryl/School Projects/Clion Compiler Project/a1files/code/cmake-build-debug/CMakeFiles/Compilers.dir/Main1Coder.c.o"
+}
+]
